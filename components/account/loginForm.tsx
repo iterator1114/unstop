@@ -31,7 +31,7 @@ const LoginForm = () => {
   };
 
   const validateEmail = (value: string) => {
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
     return emailPattern.test(value) || "Please enter a valid email";
   };
 
